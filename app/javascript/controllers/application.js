@@ -1,5 +1,5 @@
 import { Application } from "@hotwired/stimulus"
-import { Autocomplete } from "stimulus-autocomplete"
+import { Autocomplete } from "stimulus-autocomplete/src/autocomplete.js"
 
 const application = Application.start()
 
