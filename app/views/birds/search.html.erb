@@ -1,0 +1,6 @@
+<% @birds.each do |bird| %>
+  <li class="list-group-item" role="option" data-autocomplete-value="<%= bird.id %>" data-autocomplete-label="<%= bird.name %>">
+    <%= bird.name %>
+    <span class="badge"><%= bird.description %></span>
+  </li>
+<% end %>

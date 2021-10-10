@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :birds do
+    get :search, on: :collection
+  end
+  root "birds#index"
 end
