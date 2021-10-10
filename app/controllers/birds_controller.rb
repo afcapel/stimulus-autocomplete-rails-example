@@ -8,6 +8,7 @@ class BirdsController < ApplicationController
 
   def search
     @birds = Bird.where("name like ?", "%#{params[:q]}%")
+    render "search", layout: false
   end
 
   # GET /birds/1 or /birds/1.json
