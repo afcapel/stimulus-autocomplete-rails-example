@@ -1,5 +1,5 @@
 import { Application } from "@hotwired/stimulus"
-import { Autocomplete } from "stimulus-autocomplete/src/autocomplete.js"
+import { Autocomplete } from "stimulus-autocomplete"
 
 const application = Application.start()
 
@@ -8,6 +8,6 @@ application.warnings = true
 application.debug    = false
 window.Stimulus      = application
 
-window.Stimulus.register("autocomplete", Autocomplete)
+application.register("autocomplete", Autocomplete)
 
 export { application }
