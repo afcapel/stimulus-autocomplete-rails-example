@@ -6175,9 +6175,9 @@ static-extend@^0.1.1:
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
 stimulus-autocomplete@^3.0.0-rc.5:
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/stimulus-autocomplete/-/stimulus-autocomplete-3.0.0-rc.5.tgz#916dfe11d0480f511b0add7fb1e432144724b63a"
-  integrity sha512-naMJo3atTHUFJQ2cwi1ujWWUMWmZ5JQuOv9SCU1DAaqDu3z6S+nGhXhkT4fTXpFRc+zQWswSrTcHCVWk7KVKzg==
+  version "3.0.0-rc.7"
+  resolved "https://registry.yarnpkg.com/stimulus-autocomplete/-/stimulus-autocomplete-3.0.0-rc.7.tgz#582e3fe38d78169dc8ad4553216b37e1a3857e06"
+  integrity sha512-EvqMp/5W/OWgHfjBCRYiofPyrmMWP6r61tRlK0M2J5wjdNyGLydcNGub1EQ9mps9sbWyhMxCS4O5+tDVv5UHqA==
 
 stream-browserify@^2.0.1:
   version "2.0.2"
